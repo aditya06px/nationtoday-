@@ -1,0 +1,51 @@
+ <!--Start mg-footer-widget-area-->
+<!-- 	NOT BEING USED		 -->
+                <div class="mg-footer-bottom-area">
+                    <div class="container-fluid">
+                        <?php if ( is_active_sidebar( 'footer_widget_area' ) ) { ?>
+                        <div class="divide-line"></div>
+                        <?php } ?>
+                        <div class="row align-items-center">
+                            <!--col-md-4 this-->
+							
+<!--     REAL LOGO TEXT     -->
+
+<!-- 	REAL LOGO TEXT ENDS HERE		-->
+                            
+							
+							<?php 
+                              $footer_social_icon_enable = esc_attr(get_theme_mod('footer_social_icon_enable','true'));
+                              if($footer_social_icon_enable == true)
+                              {
+                              $newsup_footer_fb_link = get_theme_mod('newsup_footer_fb_link');
+                              $newsup_footer_fb_target = esc_attr(get_theme_mod('newsup_footer_fb_target','true'));
+                              $newsup_footer_twt_link = get_theme_mod('newsup_footer_twt_link');
+                              $newsup_footer_twt_target = esc_attr(get_theme_mod('newsup_footer_twt_target','true'));
+                              $newsup_footer_lnkd_link = get_theme_mod('newsup_footer_lnkd_link');
+                              $newsup_footer_lnkd_target = esc_attr(get_theme_mod('newsup_footer_lnkd_target','true'));
+                              $newsup_footer_insta_link = get_theme_mod('newsup_footer_insta_link');
+                              $newsup_footer_insta_target = esc_attr(get_theme_mod('newsup_footer_insta_target','true'));
+                              $newsup_footer_youtube_link = get_theme_mod('newsup_footer_youtube_link');
+                              $newsup_footer_youtube_target = esc_attr(get_theme_mod('newsup_footer_youtube_target','true'));
+                              $newsup_footer_pinterest_link = get_theme_mod('newsup_footer_pinterest_link');
+                              $newsup_footer_pinterest_target = esc_attr(get_theme_mod('newsup_footer_pinterest_target','true'));
+                              $newsup_footer_telegram_link = get_theme_mod('newsup_footer_tele_link');
+                              $newsup_footer_telegram_target = esc_attr(get_theme_mod('newsup_footer_tele_target','true'));
+                              ?>
+							
+							
+<!--   Social Website Links Not used -->
+
+<!--	Social Website Links Not used ends here -->
+							
+							
+                            <!--/col-md-4-->  
+                            <?php } ?> 
+                        </div>
+                        <!--/row-->
+                    </div>
+                    <!--/container-->
+                </div>
+			<!-- 	NOT BEING USED		 -->
+			
+ <!--End mg-footer-widget-area-->
