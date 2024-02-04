@@ -1,0 +1,14 @@
+<!--     REAL LOGO TEXT     -->
+
+
+<div class="col-md-6">
+       <?php the_custom_logo(); 
+       if (display_header_text()) : ?>
+            <div class="site-branding-text">
+                <p class="site-title-footer"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php echo esc_html(get_bloginfo( 'name' )); ?></a></p>
+                <p class="site-description-footer"><?php echo esc_html(get_bloginfo( 'description' )); ?></p>
+            </div>
+      <?php endif; ?>
+ </div>
+
+<!-- 	REAL LOGO TEXT ENDS HERE		-->
